@@ -7,10 +7,14 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <View 
-      style={{
-        backgroundColor: '#fff',
-        flex: 1,
-      }}
+        style={{
+          backgroundColor: '#fff',
+          flex: 1,
+          flexDirection: "row",
+          justifyContent: "center",
+          alignItems: "center",
+          alignContent: "center",
+        }}
       >
         <View style={{
             backgroundColor: "dodgerblue",
@@ -22,6 +26,7 @@ export default function App() {
             backgroundColor: "gold",
             width: 100,
             height: 100,
+            bottom: 20,
           }}
         />
         <View style={{
@@ -30,6 +35,8 @@ export default function App() {
             height: 100,
           }}
         />
+      
+
       </View>
     </SafeAreaView>
   );
